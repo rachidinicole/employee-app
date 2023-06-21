@@ -7,32 +7,41 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("./assets/my logo-background.png");
+  height: 1000px;
+  
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-right: 50px;
+  box-shadow: 20px #743d3d;
+  align-items:center;
+;
+}.tbody {
+  box-sizing: border-box;
+  color: #227272
+;
+  font-family: 'fantasy', serif;
+}tr th {
+  font-size: 16px;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid #c0b9b9
+;
+  text-align: left;
+  background-color: rgb(198, 203, 207);
+  font-weight: bold;
+}tr td {  font-size: 16px;
+  padding: 0px;
+  border: 2px solid #583a3a;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0);
+  color: #0c0c0c;
+  font-weight:medium ;
 }
